@@ -2,6 +2,9 @@ import { defineConfig } from "vite";
 import { refreshFeed } from "./scripts/refresh.mjs";
 
 export default defineConfig({
+  build: {
+    emptyOutDir: true,
+  },
   server: {
     port: 5173,
     host: true,
