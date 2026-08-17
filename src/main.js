@@ -515,7 +515,7 @@ function renderSources() {
   const inner = `
     <p class="kicker">数据源</p>
     <h1>每天刷新一遍列表页，只收和修复 / 林下 / 工程复合有关的标题。</h1>
-    <p class="lead">${esc(syncLabel())}。开发环境点刷新会现场抓取；上线后由定时任务写进 feed.json。</p>
+    <p class="lead">${esc(syncLabel())}。点刷新会现场抓各官方列表页；每天定时任务也会写进 feed.json。</p>
     <div class="action-bar">
       <button class="btn" data-refresh>${refreshing ? "抓取中" : "现在刷新"}</button>
     </div>
@@ -719,11 +719,14 @@ async function refreshNow() {
   render();
   try {
     const res = await fetch("/api/refresh", { method: "POST" });
-    if (res.ok) {
+    const type = res.headers.get("content-type") || "";
+    if (res.ok && type.includes("json")) {
       const prev = JSON.parse(localStorage.getItem(seenKey()) || "[]");
       liveFeed = await res.json();
       const n = pushNewFromFeed(prev);
-      toast(n ? `刷新完成，新增 ${n} 条` : "刷新完成，没有新标题");
+      const fail = (liveFeed.sources || []).filter((s) => s.status === "fail").length;
+      const extra = fail ? `，${fail} 个源没抓到` : "";
+      toast(n ? `刷新完成，新增 ${n} 条${extra}` : `刷新完成，没有新标题${extra}`);
     } else {
       await loadFeed({ alertNew: true });
       toast("现场抓取不可用，已读取上次 feed");
