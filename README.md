@@ -12,9 +12,21 @@ npm run dev
 
 浏览器打开终端里的地址。首页「刷新数据源」会现场抓取；没有 dev 中间件时读取 `public/feed.json`。
 
-## 部署（Cloudflare）
+## 部署（Cloudflare Pages）
 
-构建命令 `npm run build`，输出目录 `dist`，Node `22`。部署命令用控制台默认的 `npx wrangler deploy`（`wrangler.toml` 已指向 `dist`）。
+这个仓库是静态 H5，对应 **Pages**，不要用 `npx wrangler deploy`（那是 Workers 命令，会报 Missing entry-point）。
+
+在 Cloudflare → Workers & Pages → 项目 → Settings → Builds：
+
+- Build command：`npm run build`
+- Build output directory：`dist`
+- **Deploy command：留空**
+
+如果界面强制要填部署命令，改成：
+
+```bash
+npx wrangler pages deploy dist
+```
 
 连上 GitHub 的 `main` 后，每次推送会自动发布。
 ## 每天刷新
