@@ -12,17 +12,14 @@ npm run dev
 
 浏览器打开终端里的地址。首页「刷新数据源」会现场抓取；没有 dev 中间件时读取 `public/feed.json`。
 
-## 部署（Cloudflare Pages）
+## 部署（Cloudflare）
 
-这个仓库是静态 H5，对应 **Pages**，不要用 `npx wrangler deploy`（那是 Workers 命令，会报 Missing entry-point）。
+Git 构建用的是 Workers 的 API Token，没有 Pages 权限，所以不要用 `wrangler pages deploy`（会报 Authentication error 10000）。
 
 在 Cloudflare → Workers & Pages → 项目 → Settings → Builds：
 
 - Build command：`npm run build`
-- Build output directory：`dist`
-- Deploy command：`npx wrangler pages deploy dist --project-name=lvfutong`
-
-如果 Cloudflare 里的项目名不是 `lvfutong`，把 `--project-name` 改成控制台里显示的那个名字。
+- Deploy command：`npx wrangler deploy --assets=./dist`
 
 连上 GitHub 的 `main` 后，每次推送会自动发布。
 ## 每天刷新

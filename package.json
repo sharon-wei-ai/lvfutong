@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --host",
     "refresh": "node scripts/refresh.mjs",
-    "deploy": "wrangler pages deploy dist --project-name=lvfutong"
+    "deploy": "wrangler deploy --assets=./dist"
   },
   "devDependencies": {
     "vite": "^6.0.0"
