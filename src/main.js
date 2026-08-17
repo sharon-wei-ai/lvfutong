@@ -738,5 +738,4 @@ async function refreshNow() {
 }
 
 window.addEventListener("hashchange", render);
-await loadFeed({ alertNew: true });
-render();
+loadFeed({ alertNew: true }).then(() => render());
