@@ -1,0 +1,10 @@
+{
+  "name": "绿复通",
+  "short_name": "绿复通",
+  "description": "生态修复 · 林下申报 · 工程复合机会",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F1E8",
+  "theme_color": "#16382A",
+  "lang": "zh-CN"
+}
