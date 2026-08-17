@@ -20,13 +20,9 @@ npm run dev
 
 - Build command：`npm run build`
 - Build output directory：`dist`
-- **Deploy command：留空**
+- Deploy command：`npx wrangler pages deploy dist --project-name=lvfutong`
 
-如果界面强制要填部署命令，改成：
-
-```bash
-npx wrangler pages deploy dist
-```
+如果 Cloudflare 里的项目名不是 `lvfutong`，把 `--project-name` 改成控制台里显示的那个名字。
 
 连上 GitHub 的 `main` 后，每次推送会自动发布。
 ## 每天刷新
