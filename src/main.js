@@ -251,7 +251,7 @@ function renderHome() {
     </div>
     <div class="sync-bar">
       <span>${esc(syncLabel())}</span>
-      <button class="link" data-refresh>${refreshing ? "抓取中" : "刷新数据源"}</button>
+      <button class="link" data-refresh>${refreshing ? "刷新中" : "刷新数据源"}</button>
     </div>
     <div class="hero-stamp">
       <div class="kicker">怎么用</div>
@@ -515,9 +515,9 @@ function renderSources() {
   const inner = `
     <p class="kicker">数据源</p>
     <h1>每天刷新一遍列表页，只收和修复 / 林下 / 工程复合有关的标题。</h1>
-    <p class="lead">${esc(syncLabel())}。点刷新会现场抓各官方列表页；每天定时任务也会写进 feed.json。</p>
+    <p class="lead">${esc(syncLabel())}。线上点刷新会读取每天定时写入的 feed.json；本地开发才会现场抓官方列表。</p>
     <div class="action-bar">
-      <button class="btn" data-refresh>${refreshing ? "抓取中" : "现在刷新"}</button>
+      <button class="btn" data-refresh>${refreshing ? "刷新中" : "现在刷新"}</button>
     </div>
     <p class="section-label">正在抓的</p>
     ${crawlSources
@@ -695,22 +695,40 @@ function pushNewFromFeed(prevIds) {
 
 async function loadFeed({ alertNew = false } = {}) {
   try {
-    const res = await fetch("/feed.json", { cache: "no-store" });
-    if (!res.ok) return;
+    const res = await fetch(`/feed.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) return 0;
     const prev = JSON.parse(localStorage.getItem(seenKey()) || "[]");
     liveFeed = await res.json();
     if (prev.length && alertNew && liveFeed.items?.length) {
-      const n = pushNewFromFeed(prev);
-      if (n) toast(`数据源有 ${n} 条新标题`);
-    } else if (liveFeed.items?.length) {
+      return pushNewFromFeed(prev);
+    }
+    if (liveFeed.items?.length) {
       localStorage.setItem(
         seenKey(),
         JSON.stringify(liveFeed.items.map((i) => i.id))
       );
     }
+    return 0;
   } catch {
-    /* keep curated data */
+    return 0;
   }
+}
+
+function applyLiveFeed(feed) {
+  const prev = JSON.parse(localStorage.getItem(seenKey()) || "[]");
+  liveFeed = feed;
+  if (!prev.length) {
+    if (liveFeed.items?.length) {
+      localStorage.setItem(seenKey(), JSON.stringify(liveFeed.items.map((i) => i.id)));
+    }
+    return 0;
+  }
+  return pushNewFromFeed(prev);
+}
+
+function refreshToast(n, fail = 0) {
+  const extra = fail ? `，${fail} 个源没抓到` : "";
+  toast(n ? `已读取最新 feed，新增 ${n} 条${extra}` : `已读取最新 feed，没有新标题${extra}`);
 }
 
 async function refreshNow() {
@@ -718,22 +736,21 @@ async function refreshNow() {
   refreshing = true;
   render();
   try {
-    const res = await fetch("/api/refresh", { method: "POST" });
-    const type = res.headers.get("content-type") || "";
-    if (res.ok && type.includes("json")) {
-      const prev = JSON.parse(localStorage.getItem(seenKey()) || "[]");
-      liveFeed = await res.json();
-      const n = pushNewFromFeed(prev);
-      const fail = (liveFeed.sources || []).filter((s) => s.status === "fail").length;
-      const extra = fail ? `，${fail} 个源没抓到` : "";
-      toast(n ? `刷新完成，新增 ${n} 条${extra}` : `刷新完成，没有新标题${extra}`);
-    } else {
-      await loadFeed({ alertNew: true });
-      toast("现场抓取不可用，已读取上次 feed");
+    if (import.meta.env.DEV) {
+      const res = await fetch("/api/refresh", { method: "POST" });
+      const type = res.headers.get("content-type") || "";
+      if (res.ok && type.includes("json")) {
+        const n = applyLiveFeed(await res.json());
+        const fail = (liveFeed.sources || []).filter((s) => s.status === "fail").length;
+        refreshToast(n, fail);
+        return;
+      }
     }
+    const n = await loadFeed({ alertNew: true });
+    refreshToast(n);
   } catch {
     await loadFeed({ alertNew: true });
-    toast("抓取失败，仍显示已有口径");
+    toast("读取失败，仍显示已有口径");
   } finally {
     refreshing = false;
     render();
@@ -741,4 +758,7 @@ async function refreshNow() {
 }
 
 window.addEventListener("hashchange", render);
-loadFeed({ alertNew: true }).then(() => render());
+loadFeed({ alertNew: true }).then((n) => {
+  if (n) toast(`数据源有 ${n} 条新标题`);
+  render();
+});

@@ -10,7 +10,7 @@ npm run refresh
 npm run dev
 ```
 
-浏览器打开终端里的地址。首页「刷新数据源」会现场抓取；没有 dev 中间件时读取 `public/feed.json`。
+浏览器打开终端里的地址。本地点刷新会现场抓取；线上只读取每天定时写入的 `feed.json`。
 
 ## 部署（Cloudflare）
 

@@ -76,6 +76,25 @@ function isNoise(title) {
   return /草品种|林木品种审定|招聘|招标代理|网站地图/.test(title);
 }
 
+function charsetOf(res, headLatin) {
+  const fromHeader = (res.headers.get("content-type") || "").match(/charset=([a-z0-9-]+)/i);
+  const fromMeta = headLatin.match(/charset\s*=\s*["']?([a-z0-9-]+)/i);
+  const raw = (fromHeader?.[1] || fromMeta?.[1] || "utf-8").toLowerCase();
+  if (raw === "gb2312" || raw === "gbk" || raw === "gb18030") return "gb18030";
+  return "utf-8";
+}
+
+function decodeHtml(buf, res) {
+  const bytes = buf instanceof Uint8Array ? buf : new Uint8Array(buf);
+  const head = new TextDecoder("latin1").decode(bytes.subarray(0, 2048));
+  const cs = charsetOf(res, head);
+  try {
+    return new TextDecoder(cs).decode(bytes).slice(0, HTML_LIMIT);
+  } catch {
+    return new TextDecoder("utf-8").decode(bytes).slice(0, HTML_LIMIT);
+  }
+}
+
 function extractItems(html, source) {
   const items = [];
   const re = /<a\s+[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
@@ -128,7 +147,7 @@ async function fetchSource(source) {
         items: [],
       };
     }
-    const html = (await res.text()).slice(0, HTML_LIMIT);
+    const html = decodeHtml(await res.arrayBuffer(), res);
     const items = extractItems(html, source).slice(0, 12);
     return {
       sourceId: source.id,
