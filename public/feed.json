@@ -1,71 +1,59 @@
 {
-  "fetchedAt": "2026-08-18T01:05:56.869Z",
+  "fetchedAt": "2026-08-19T01:06:57.608Z",
   "itemCount": 4,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2673
+      "ms": 2656
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2156
+      "ms": 3007
     },
     {
       "sourceId": "fj-lyj",
-      "status": "ok",
-      "ms": 2542
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 1874
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 9999
+      "ms": 10000
     },
     {
       "sourceId": "nx-jy",
       "status": "empty",
-      "ms": 2660
+      "ms": 4013
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2693
+      "ms": 2839
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "fail",
-      "error": "fetch failed",
-      "ms": 2596
+      "error": "The operation was aborted due to timeout",
+      "ms": 10001
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 3354
+      "ms": 3330
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 3373
+      "ms": 3518
     }
   ],
   "items": [
-    {
-      "id": "live-ea7e32f6",
-      "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
-      "url": "https://lyj.fujian.gov.cn/zwgk/zcfg/gfxwjnew/202602/t20260224_7099933.htm",
-      "source": "福建省林业局 · 部门文件",
-      "sourceId": "fj-lyj",
-      "region": "福建",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-02-24",
-      "kind": "新发"
-    },
     {
       "id": "live-525d1da4",
       "title": "关于《云南省林下经济高质量发展行动方案（公开征求意见稿）》征求意见反馈结果的公示",
@@ -75,6 +63,20 @@
       "region": "云南",
       "topics": [
         "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-871fcf34",
+      "title": "矿区生态修复方案审查结果公示",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0818/4053582.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
       ],
       "date": "",
       "kind": "新发"
