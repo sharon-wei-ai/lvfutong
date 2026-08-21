@@ -1,22 +1,23 @@
 {
-  "fetchedAt": "2026-08-20T01:06:13.548Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-08-21T01:10:14.280Z",
+  "itemCount": 5,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2011
+      "ms": 2446
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 2579
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 1624
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2130
+      "ms": 2483
     },
     {
       "sourceId": "gx-dnr",
@@ -27,27 +28,29 @@
     {
       "sourceId": "nx-jy",
       "status": "empty",
-      "ms": 2275
+      "ms": 3030
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2278
+      "ms": 3178
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "ok",
-      "ms": 4523
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10000
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 2484
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10002
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 2746
+      "ms": 3914
     }
   ],
   "items": [
@@ -62,32 +65,6 @@
         "understory"
       ],
       "date": "2026-02-24",
-      "kind": "新发"
-    },
-    {
-      "id": "live-e3580de0",
-      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
-      "source": "国家林草局 · 公示公告",
-      "sourceId": "forestry-gsgg",
-      "region": "全国",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-525d1da4",
-      "title": "关于《云南省林下经济高质量发展行动方案（公开征求意见稿）》征求意见反馈结果的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0703/76977.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
       "kind": "新发"
     },
     {
