@@ -1,55 +1,54 @@
 {
-  "fetchedAt": "2026-08-22T01:06:03.374Z",
-  "itemCount": 6,
+  "fetchedAt": "2026-08-23T01:12:03.809Z",
+  "itemCount": 5,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2485
+      "ms": 2447
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2161
+      "status": "empty",
+      "ms": 2026
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3021
+      "ms": 3557
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 9999
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 1812
+      "status": "empty",
+      "ms": 2974
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2448
+      "ms": 3557
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 8653
+      "ms": 9374
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 3376
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10000
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 6017
+      "ms": 5083
     }
   ],
   "items": [
@@ -73,19 +72,6 @@
       "source": "国家林草局 · 公示公告",
       "sourceId": "forestry-gsgg",
       "region": "全国",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-525d1da4",
-      "title": "关于《云南省林下经济高质量发展行动方案（公开征求意见稿）》征求意见反馈结果的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0703/76977.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
       "topics": [
         "understory"
       ],
