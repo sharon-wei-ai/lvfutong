@@ -1,23 +1,23 @@
 {
-  "fetchedAt": "2026-08-27T07:20:16.288Z",
-  "itemCount": 5,
+  "fetchedAt": "2026-08-28T09:34:36.709Z",
+  "itemCount": 4,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 1873
+      "ms": 2411
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2050
+      "ms": 1502
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2242
+      "ms": 2932
     },
     {
       "sourceId": "gx-dnr",
@@ -28,27 +28,27 @@
     {
       "sourceId": "nx-jy",
       "status": "empty",
-      "ms": 2818
+      "ms": 4004
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2240
+      "ms": 2292
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 2788
+      "ms": 8338
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 2297
+      "ms": 2504
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 2682
+      "ms": 4210
     }
   ],
   "items": [
@@ -79,9 +79,9 @@
       "kind": "新发"
     },
     {
-      "id": "live-525d1da4",
-      "title": "关于《云南省林下经济高质量发展行动方案（公开征求意见稿）》征求意见反馈结果的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0703/76977.html",
+      "id": "live-d61f8e89",
+      "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
+      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
       "source": "云南省林草局 · 公示公告",
       "sourceId": "yn-lcj-gsgg",
       "region": "云南",
@@ -92,23 +92,9 @@
       "kind": "新发"
     },
     {
-      "id": "live-a4b73690",
+      "id": "live-7a58f057",
       "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0819/4053596.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-871fcf34",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0818/4053582.html",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0828/4053690.html",
       "source": "云南省自然资源厅 · 门户",
       "sourceId": "yn-dnr",
       "region": "云南",
