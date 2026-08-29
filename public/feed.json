@@ -1,54 +1,57 @@
 {
-  "fetchedAt": "2026-08-28T09:34:36.709Z",
-  "itemCount": 4,
+  "fetchedAt": "2026-08-29T05:40:33.380Z",
+  "itemCount": 2,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2411
+      "ms": 2107
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 1502
+      "ms": 2156
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2932
+      "ms": 2770
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "empty",
-      "ms": 4004
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 2177
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2292
+      "ms": 2800
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "ok",
-      "ms": 8338
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 4429
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 2504
+      "ms": 3264
     },
     {
       "sourceId": "yn-dnr",
-      "status": "ok",
-      "ms": 4210
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10001
     }
   ],
   "items": [
@@ -66,19 +69,6 @@
       "kind": "新发"
     },
     {
-      "id": "live-e3580de0",
-      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
-      "source": "国家林草局 · 公示公告",
-      "sourceId": "forestry-gsgg",
-      "region": "全国",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
       "id": "live-d61f8e89",
       "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
       "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
@@ -87,20 +77,6 @@
       "region": "云南",
       "topics": [
         "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-7a58f057",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0828/4053690.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
       ],
       "date": "",
       "kind": "新发"
