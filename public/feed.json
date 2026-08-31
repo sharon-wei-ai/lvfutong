@@ -1,23 +1,23 @@
 {
-  "fetchedAt": "2026-08-30T03:40:47.443Z",
-  "itemCount": 3,
+  "fetchedAt": "2026-08-31T03:41:23.451Z",
+  "itemCount": 4,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2308
+      "ms": 3489
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2608
+      "ms": 2157
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2756
+      "ms": 2944
     },
     {
       "sourceId": "gx-dnr",
@@ -29,28 +29,27 @@
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 2767
+      "ms": 1668
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2955
+      "ms": 2587
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 9004
+      "ms": 3697
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "status": "ok",
+      "ms": 2917
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 4070
+      "ms": 4142
     }
   ],
   "items": [
@@ -74,6 +73,19 @@
       "source": "国家林草局 · 公示公告",
       "sourceId": "forestry-gsgg",
       "region": "全国",
+      "topics": [
+        "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-d61f8e89",
+      "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
+      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
+      "source": "云南省林草局 · 公示公告",
+      "sourceId": "yn-lcj-gsgg",
+      "region": "云南",
       "topics": [
         "understory"
       ],
