@@ -1,54 +1,56 @@
 {
-  "fetchedAt": "2026-09-08T03:05:50.881Z",
-  "itemCount": 6,
+  "fetchedAt": "2026-09-09T03:07:41.875Z",
+  "itemCount": 2,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2114
+      "ms": 1947
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 2468
+      "ms": 2450
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 6801
+      "ms": 2528
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "ms": 10000
     },
     {
       "sourceId": "nx-jy",
       "status": "empty",
-      "ms": 2526
+      "ms": 2564
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4989
+      "ms": 2692
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 4718
+      "ms": 8797
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 5133
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10000
     },
     {
       "sourceId": "yn-dnr",
-      "status": "ok",
-      "ms": 5523
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10000
     }
   ],
   "items": [
@@ -74,61 +76,6 @@
       "region": "全国",
       "topics": [
         "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d61f8e89",
-      "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d845d351",
-      "title": "云南省自然资源厅关于腾冲市子云工贸有限责任公司茨竹地铁矿等2个矿区生态修复方案通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0903/4053753.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d690fab2",
-      "title": "云南省自然资源厅关于《华宁昇达资源开发有限公司云南省华宁县火特磷矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0903/4053752.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d4dc2213",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0903/4053751.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
       ],
       "date": "",
       "kind": "新发"
