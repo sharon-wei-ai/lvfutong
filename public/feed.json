@@ -1,22 +1,21 @@
 {
-  "fetchedAt": "2026-09-14T03:24:56.959Z",
-  "itemCount": 9,
+  "fetchedAt": "2026-09-15T03:26:22.544Z",
+  "itemCount": 7,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2456
+      "ms": 2138
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 1929
+      "status": "empty",
+      "ms": 2049
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2247
+      "ms": 3364
     },
     {
       "sourceId": "gx-dnr",
@@ -27,27 +26,28 @@
     {
       "sourceId": "nx-jy",
       "status": "empty",
-      "ms": 3211
+      "ms": 2238
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2523
+      "ms": 2877
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 9301
+      "ms": 5657
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 3015
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10001
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 5859
+      "ms": 3383
     }
   ],
   "items": [
@@ -138,36 +138,9 @@
       "kind": "新发"
     },
     {
-      "id": "live-d61f8e89",
-      "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-41db6ef2",
-      "title": "云南省自然资源厅关于《澜沧亿鑫煤炭有限公司城子煤矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0914/4053840.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-b7c0cce6",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0909/4053813.html",
+      "id": "live-d53577f1",
+      "title": "云南省自然资源厅关于将云南磷化集团有限公司昆阳磷矿二矿等矿山纳入云南省省级绿色矿山名录的公告",
+      "url": "https://dnr.yn.gov.cn/html/2026/tongzhigonggao_0914/4053848.html",
       "source": "云南省自然资源厅 · 门户",
       "sourceId": "yn-dnr",
       "region": "云南",
