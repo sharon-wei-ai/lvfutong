@@ -1,55 +1,56 @@
 {
-  "fetchedAt": "2026-09-21T03:21:53.447Z",
-  "itemCount": 2,
+  "fetchedAt": "2026-09-22T03:21:11.353Z",
+  "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
-      "error": "HTTP 502",
-      "ms": 3356
+      "error": "fetch failed",
+      "ms": 2351
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 1401
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 1824
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2700
+      "ms": 3738
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 9999
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "empty",
-      "ms": 3202
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 3021
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3352
+      "ms": 3531
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "error": "fetch failed",
+      "ms": 5813
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 4136
+      "ms": 6161
     },
     {
       "sourceId": "yn-dnr",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "status": "ok",
+      "ms": 5798
     }
   ],
   "items": [
@@ -75,6 +76,62 @@
       "region": "云南",
       "topics": [
         "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-aa3ccb31",
+      "title": "云南省自然资源厅关于《文山州隆兴矿业有限公司广南县格乍金矿矿区生态修复方案》通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0920/4053901.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-a887f292",
+      "title": "矿区生态修复方案审查结果公示",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0920/4053900.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-ab1d166f",
+      "title": "云南省自然资源厅关于《镇雄县鑫源煤矿有限责任公司镇雄县鑫源煤矿矿区生态修复方案》通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0916/4053874.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-a9683dd0",
+      "title": "矿区生态修复方案审查结果公示",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0916/4053873.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
       ],
       "date": "",
       "kind": "新发"
