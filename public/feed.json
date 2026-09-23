@@ -1,23 +1,21 @@
 {
-  "fetchedAt": "2026-09-22T03:21:11.353Z",
-  "itemCount": 6,
+  "fetchedAt": "2026-09-23T03:22:04.581Z",
+  "itemCount": 9,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2351
+      "status": "ok",
+      "ms": 1929
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 1824
+      "status": "empty",
+      "ms": 2530
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3738
+      "ms": 4593
     },
     {
       "sourceId": "gx-dnr",
@@ -27,33 +25,91 @@
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 3021
+      "status": "empty",
+      "ms": 3072
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3531
+      "ms": 4048
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 5813
+      "status": "ok",
+      "ms": 7591
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 6161
+      "ms": 4776
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 5798
+      "ms": 5324
     }
   ],
   "items": [
+    {
+      "id": "live-62e68b07",
+      "title": "财政部关于下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202606/t20260626_3992352.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2026-06-26",
+      "kind": "新发"
+    },
+    {
+      "id": "live-417e525f",
+      "title": "财政部关于提前下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202511/t20251118_3976614.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-11-18",
+      "kind": "新发"
+    },
+    {
+      "id": "live-59724cdf",
+      "title": "财政部关于下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202507/t20250702_3967013.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-07-02",
+      "kind": "新发"
+    },
+    {
+      "id": "live-f4fae20c",
+      "title": "财政部关于提前下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202411/t20241122_3948202.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2024-11-22",
+      "kind": "新发"
+    },
     {
       "id": "live-ea7e32f6",
       "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
@@ -65,6 +121,19 @@
         "understory"
       ],
       "date": "2026-02-24",
+      "kind": "新发"
+    },
+    {
+      "id": "live-e3580de0",
+      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
+      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
+      "source": "国家林草局 · 公示公告",
+      "sourceId": "forestry-gsgg",
+      "region": "全国",
+      "topics": [
+        "understory"
+      ],
+      "date": "",
       "kind": "新发"
     },
     {
@@ -98,34 +167,6 @@
       "id": "live-a887f292",
       "title": "矿区生态修复方案审查结果公示",
       "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0920/4053900.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-ab1d166f",
-      "title": "云南省自然资源厅关于《镇雄县鑫源煤矿有限责任公司镇雄县鑫源煤矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0916/4053874.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-a9683dd0",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0916/4053873.html",
       "source": "云南省自然资源厅 · 门户",
       "sourceId": "yn-dnr",
       "region": "云南",
