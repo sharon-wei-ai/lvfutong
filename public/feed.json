@@ -1,57 +1,54 @@
 {
-  "fetchedAt": "2026-09-24T03:11:34.139Z",
-  "itemCount": 2,
+  "fetchedAt": "2026-09-25T03:28:48.023Z",
+  "itemCount": 5,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
-      "error": "fetch failed",
-      "ms": 2469
+      "error": "HTTP 502",
+      "ms": 3379
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 3172
+      "status": "empty",
+      "ms": 2457
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 4418
+      "ms": 3059
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 10002
     },
     {
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 3630
+      "ms": 1790
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4913
+      "ms": 2842
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "status": "ok",
+      "ms": 4266
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 5353
+      "ms": 3012
     },
     {
       "sourceId": "yn-dnr",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "status": "ok",
+      "ms": 3509
     }
   ],
   "items": [
@@ -69,6 +66,19 @@
       "kind": "新发"
     },
     {
+      "id": "live-e3580de0",
+      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
+      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
+      "source": "国家林草局 · 公示公告",
+      "sourceId": "forestry-gsgg",
+      "region": "全国",
+      "topics": [
+        "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
       "id": "live-d61f8e89",
       "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
       "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
@@ -77,6 +87,34 @@
       "region": "云南",
       "topics": [
         "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-c3dfb24a",
+      "title": "云南省自然资源厅关于中化云龙有限公司寻甸县没租哨磷矿等3个矿区生态修复方案通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0923/4053927.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-c22ad9ab",
+      "title": "矿区生态修复方案审查结果公示",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_0923/4053926.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
       ],
       "date": "",
       "kind": "新发"
