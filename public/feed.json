@@ -1,57 +1,118 @@
 {
-  "fetchedAt": "2026-09-25T03:28:48.023Z",
-  "itemCount": 5,
+  "fetchedAt": "2026-09-26T03:34:18.354Z",
+  "itemCount": 8,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 3379
+      "status": "ok",
+      "ms": 2291
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 2457
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 2696
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3059
+      "ms": 2833
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10002
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 1790
+      "status": "ok",
+      "ms": 2689
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2842
+      "ms": 3173
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "ok",
-      "ms": 4266
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10001
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 3012
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10001
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 3509
+      "ms": 3767
     }
   ],
   "items": [
+    {
+      "id": "live-62e68b07",
+      "title": "财政部关于下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202606/t20260626_3992352.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2026-06-26",
+      "kind": "新发"
+    },
+    {
+      "id": "live-417e525f",
+      "title": "财政部关于提前下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202511/t20251118_3976614.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-11-18",
+      "kind": "新发"
+    },
+    {
+      "id": "live-59724cdf",
+      "title": "财政部关于下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202507/t20250702_3967013.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-07-02",
+      "kind": "新发"
+    },
+    {
+      "id": "live-f4fae20c",
+      "title": "财政部关于提前下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202411/t20241122_3948202.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2024-11-22",
+      "kind": "新发"
+    },
     {
       "id": "live-ea7e32f6",
       "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
@@ -66,29 +127,16 @@
       "kind": "新发"
     },
     {
-      "id": "live-e3580de0",
-      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
-      "source": "国家林草局 · 公示公告",
-      "sourceId": "forestry-gsgg",
-      "region": "全国",
+      "id": "live-1bd7b0fe",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202609/t20260923_5355600.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
       "topics": [
         "understory"
       ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d61f8e89",
-      "title": "云南省林业和草原局关于高原特色现代农业产业技术体系首席科学家和岗位专家拟推荐申报人员名单的公示",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0826/77223.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
+      "date": "2026-09-23",
       "kind": "新发"
     },
     {
