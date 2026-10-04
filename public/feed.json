@@ -1,55 +1,54 @@
 {
-  "fetchedAt": "2026-10-03T03:49:46.124Z",
+  "fetchedAt": "2026-10-04T04:21:14.375Z",
   "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 1919
+      "ms": 1737
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2269
+      "status": "empty",
+      "ms": 2095
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2830
+      "ms": 4187
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 9999
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2002
+      "status": "ok",
+      "ms": 3557
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3274
+      "ms": 3545
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "ok",
-      "ms": 5101
+      "status": "fail",
+      "error": "The operation was aborted due to timeout",
+      "ms": 10002
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 3708
+      "ms": 4185
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 4166
+      "ms": 4202
     }
   ],
   "items": [
@@ -67,16 +66,16 @@
       "kind": "新发"
     },
     {
-      "id": "live-e3580de0",
-      "title": "国家林业和草原局办公室关于印发《林下经济发展典型案例（第二批）》的通知",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260401/665724.html",
-      "source": "国家林草局 · 公示公告",
-      "sourceId": "forestry-gsgg",
-      "region": "全国",
+      "id": "live-1bd7b0fe",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202609/t20260923_5355600.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
       "topics": [
         "understory"
       ],
-      "date": "",
+      "date": "2026-09-23",
       "kind": "新发"
     },
     {
