@@ -1,54 +1,55 @@
 {
-  "fetchedAt": "2026-10-04T04:21:14.375Z",
+  "fetchedAt": "2026-10-05T04:06:12.505Z",
   "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 1737
+      "ms": 2351
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 2095
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 2698
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 4187
+      "ms": 2373
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "ms": 10000
     },
     {
       "sourceId": "nx-jy",
       "status": "ok",
-      "ms": 3557
+      "ms": 2780
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3545
+      "ms": 3486
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10002
+      "ms": 10001
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 4185
+      "ms": 3230
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 4202
+      "ms": 3886
     }
   ],
   "items": [
