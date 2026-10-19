@@ -1,53 +1,52 @@
 {
-  "fetchedAt": "2026-10-18T03:03:49.967Z",
-  "itemCount": 9,
+  "fetchedAt": "2026-10-19T03:17:43.545Z",
+  "itemCount": 8,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2382
+      "ms": 1633
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2058
+      "status": "empty",
+      "ms": 2399
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2826
+      "ms": 3569
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 10002
     },
     {
       "sourceId": "nx-jy",
       "status": "ok",
-      "ms": 3393
+      "ms": 4619
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3878
+      "ms": 2855
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "empty",
-      "ms": 9521
+      "ms": 3590
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 5654
+      "ms": 3361
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 4460
+      "ms": 3853
     }
   ],
   "items": [
@@ -154,20 +153,6 @@
       "id": "live-10638d05",
       "title": "矿区生态修复方案审查结果公示",
       "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_1015/4054050.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-ead8ef5b",
-      "title": "云南省自然资源厅关于广南堂上金业有限公司别力金矿等3个矿区生态修复方案通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_1015/4054049.html",
       "source": "云南省自然资源厅 · 门户",
       "sourceId": "yn-dnr",
       "region": "云南",
