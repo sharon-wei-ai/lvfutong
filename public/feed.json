@@ -1,116 +1,57 @@
 {
-  "fetchedAt": "2026-10-20T03:26:13.272Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-10-21T03:20:54.395Z",
+  "itemCount": 4,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
-      "status": "ok",
-      "ms": 2553
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 2558
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 2484
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 3092
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 4384
+      "ms": 3466
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 9999
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
       "status": "ok",
-      "ms": 2552
+      "ms": 5884
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3507
+      "ms": 5055
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "empty",
-      "ms": 3892
+      "ms": 5656
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "ok",
-      "ms": 3967
+      "ms": 5503
     },
     {
       "sourceId": "yn-dnr",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "status": "ok",
+      "ms": 6234
     }
   ],
   "items": [
-    {
-      "id": "live-62e68b07",
-      "title": "财政部关于下达2026年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202606/t20260626_3992352.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2026-06-26",
-      "kind": "新发"
-    },
-    {
-      "id": "live-417e525f",
-      "title": "财政部关于提前下达2026年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202511/t20251118_3976614.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2025-11-18",
-      "kind": "新发"
-    },
-    {
-      "id": "live-59724cdf",
-      "title": "财政部关于下达2025年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202507/t20250702_3967013.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2025-07-02",
-      "kind": "新发"
-    },
-    {
-      "id": "live-f4fae20c",
-      "title": "财政部关于提前下达2025年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202411/t20241122_3948202.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2024-11-22",
-      "kind": "新发"
-    },
     {
       "id": "live-ea7e32f6",
       "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
@@ -146,6 +87,20 @@
       "region": "云南",
       "topics": [
         "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-aef85685",
+      "title": "云南省自然资源厅关于勐腊县龙巴河铜矿有限公司龙巴河铜矿等3个矿区生态修复方案通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_1020/4054089.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
       ],
       "date": "",
       "kind": "新发"
