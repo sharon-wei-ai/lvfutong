@@ -1,21 +1,22 @@
 {
-  "fetchedAt": "2026-10-26T03:15:40.517Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-10-27T03:44:47.732Z",
+  "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 3193
+      "ms": 1515
     },
     {
       "sourceId": "mof-notice",
-      "status": "empty",
-      "ms": 4920
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 2355
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2530
+      "ms": 2263
     },
     {
       "sourceId": "gx-dnr",
@@ -25,30 +26,28 @@
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2311
+      "status": "ok",
+      "ms": 2789
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3115
+      "ms": 2419
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 3252
+      "status": "empty",
+      "ms": 8912
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "ok",
-      "ms": 3705
+      "status": "empty",
+      "ms": 2504
     },
     {
       "sourceId": "yn-dnr",
-      "status": "ok",
-      "ms": 6340
+      "status": "empty",
+      "ms": 2789
     }
   ],
   "items": [
@@ -126,30 +125,16 @@
       "kind": "新发"
     },
     {
-      "id": "live-7892d82c",
-      "title": "云南省林业和草原局关于印发云南省林下经济适宜品种和林草植物新品种推荐目录（2026年）的通知",
-      "url": "https://lcj.yn.gov.cn/html/2026/gongshigonggao_0924/77342.html",
-      "source": "云南省林草局 · 公示公告",
-      "sourceId": "yn-lcj-gsgg",
-      "region": "云南",
+      "id": "live-1bd7b0fe",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202609/t20260923_5355600.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
       "topics": [
         "understory"
       ],
-      "date": "",
-      "kind": "新发"
-    },
-    {
-      "id": "live-aef85685",
-      "title": "云南省自然资源厅关于勐腊县龙巴河铜矿有限公司龙巴河铜矿等3个矿区生态修复方案通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_1020/4054089.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
+      "date": "2026-09-23",
       "kind": "新发"
     }
   ]
