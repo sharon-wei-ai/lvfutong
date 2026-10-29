@@ -1,53 +1,53 @@
 {
-  "fetchedAt": "2026-10-28T04:01:40.622Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-10-29T04:25:04.628Z",
+  "itemCount": 5,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 1973
+      "ms": 3731
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 2164
+      "ms": 2368
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2681
+      "ms": 3123
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "ms": 10000
     },
     {
       "sourceId": "nx-jy",
-      "status": "ok",
-      "ms": 3553
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 3073
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3763
+      "ms": 4513
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "empty",
-      "ms": 5058
+      "ms": 6277
     },
     {
       "sourceId": "yn-lcj-gsgg",
-      "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "status": "empty",
+      "ms": 4921
     },
     {
       "sourceId": "yn-dnr",
-      "status": "ok",
-      "ms": 4668
+      "status": "empty",
+      "ms": 5436
     }
   ],
   "items": [
@@ -122,33 +122,6 @@
         "understory"
       ],
       "date": "2026-02-24",
-      "kind": "新发"
-    },
-    {
-      "id": "live-1bd7b0fe",
-      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示",
-      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202609/t20260923_5355600.html",
-      "source": "泾源县公示公告",
-      "sourceId": "nx-jy",
-      "region": "宁夏",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-09-23",
-      "kind": "新发"
-    },
-    {
-      "id": "live-48fd37e0",
-      "title": "云南省自然资源厅关于《新平浩盛矿业发展有限公司新平县阿一糯铁矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/html/2026/jieguogongshi_1021/4054104.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "",
       "kind": "新发"
     }
   ]
