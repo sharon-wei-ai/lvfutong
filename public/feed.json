@@ -1,53 +1,52 @@
 {
-  "fetchedAt": "2026-10-29T04:25:04.628Z",
-  "itemCount": 5,
+  "fetchedAt": "2026-10-30T04:24:56.308Z",
+  "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 3731
+      "ms": 1493
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 2368
+      "ms": 2334
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3123
+      "ms": 1988
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 3073
+      "status": "ok",
+      "ms": 2353
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4513
+      "ms": 2702
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "empty",
-      "ms": 6277
+      "ms": 6470
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "empty",
-      "ms": 4921
+      "ms": 3475
     },
     {
       "sourceId": "yn-dnr",
       "status": "empty",
-      "ms": 5436
+      "ms": 3703
     }
   ],
   "items": [
@@ -122,6 +121,19 @@
         "understory"
       ],
       "date": "2026-02-24",
+      "kind": "新发"
+    },
+    {
+      "id": "live-1bd7b0fe",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202609/t20260923_5355600.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-09-23",
       "kind": "新发"
     }
   ]
