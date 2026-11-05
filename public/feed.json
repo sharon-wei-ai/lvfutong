@@ -1,23 +1,22 @@
 {
-  "fetchedAt": "2026-11-04T04:52:20.749Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-11-05T05:09:17.797Z",
+  "itemCount": 5,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 3408
+      "ms": 1942
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2359
+      "status": "empty",
+      "ms": 1765
     },
     {
       "sourceId": "fj-lyj",
       "status": "fail",
-      "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "error": "fetch failed",
+      "ms": 1454
     },
     {
       "sourceId": "gx-dnr",
@@ -29,28 +28,29 @@
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 3517
+      "ms": 1972
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4284
+      "ms": 3227
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "empty",
-      "ms": 6108
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 4327
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 4611
+      "ms": 3226
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 4288
+      "ms": 4097
     }
   ],
   "items": [
@@ -115,9 +115,9 @@
       "kind": "新发"
     },
     {
-      "id": "live-bbb541c9",
-      "title": "云南省自然资源厅关于《马关都龙镇钴穗矿业有限公司贵州坡铜锡矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/zwgk/fdzdgknr/tzgg/202611/t20261102_4379184.html",
+      "id": "live-cb5f4159",
+      "title": "云南省自然资源厅关于《西盟鑫海矿业发展有限公司西盟岳宋乡小新寨锰矿矿区生态修复方案》通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/scxx/kysc/jggs/202611/t20261104_4380863.html",
       "source": "云南省自然资源厅 · 门户",
       "sourceId": "yn-dnr",
       "region": "云南",
@@ -125,35 +125,7 @@
         "mine",
         "landscape"
       ],
-      "date": "2026-11-02",
-      "kind": "新发"
-    },
-    {
-      "id": "live-ba00692a",
-      "title": "云南省自然资源厅关于《云南磷化集团有限公司昆阳磷矿二矿矿区生态修复方案》通过审查的公告",
-      "url": "https://dnr.yn.gov.cn/zwgk/fdzdgknr/tzgg/202611/t20261102_4379183.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "2026-11-02",
-      "kind": "新发"
-    },
-    {
-      "id": "live-b84b908b",
-      "title": "矿区生态修复方案审查结果公示",
-      "url": "https://dnr.yn.gov.cn/zwgk/fdzdgknr/tzgg/202611/t20261102_4379182.html",
-      "source": "云南省自然资源厅 · 门户",
-      "sourceId": "yn-dnr",
-      "region": "云南",
-      "topics": [
-        "mine",
-        "landscape"
-      ],
-      "date": "2026-11-02",
+      "date": "2026-11-04",
       "kind": "新发"
     }
   ]
