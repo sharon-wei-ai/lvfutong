@@ -1,22 +1,21 @@
 {
-  "fetchedAt": "2026-11-07T04:41:44.232Z",
+  "fetchedAt": "2026-11-08T04:29:22.004Z",
   "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2946
+      "ms": 2915
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2441
+      "status": "empty",
+      "ms": 2096
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3191
+      "ms": 5434
     },
     {
       "sourceId": "gx-dnr",
@@ -28,28 +27,29 @@
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 4599
+      "ms": 2798
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4601
+      "ms": 3440
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "empty",
-      "ms": 8441
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 3680
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 5367
+      "ms": 3881
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 5294
+      "ms": 4569
     }
   ],
   "items": [
