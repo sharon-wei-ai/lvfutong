@@ -1,21 +1,22 @@
 {
-  "fetchedAt": "2026-11-12T05:47:07.697Z",
-  "itemCount": 8,
+  "fetchedAt": "2026-11-13T05:06:34.754Z",
+  "itemCount": 7,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2061
+      "ms": 2287
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 2124
+      "ms": 6004
     },
     {
       "sourceId": "fj-lyj",
-      "status": "ok",
-      "ms": 2875
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 1510
     },
     {
       "sourceId": "gx-dnr",
@@ -27,28 +28,28 @@
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 2023
+      "ms": 2216
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3585
+      "ms": 4760
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 7128
+      "ms": 8947
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 3679
+      "ms": 5162
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 3845
+      "ms": 5581
     }
   ],
   "items": [
@@ -113,22 +114,9 @@
       "kind": "新发"
     },
     {
-      "id": "live-ea7e32f6",
-      "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
-      "url": "https://lyj.fujian.gov.cn/zwgk/zcfg/gfxwjnew/202602/t20260224_7099933.htm",
-      "source": "福建省林业局 · 部门文件",
-      "sourceId": "fj-lyj",
-      "region": "福建",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-02-24",
-      "kind": "新发"
-    },
-    {
-      "id": "live-8d1c902b",
-      "title": "自然资源部 国家林业和草原局关于《生态修复创新适用技术名录（第三批）》的公告",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260601/673151.html",
+      "id": "live-de812d84",
+      "title": "国家林业和草原局办公室 中国农林水利气象工会全国委员会关于举办第一届“美丽中国”涉林草高校教师教学创新竞赛的通知",
+      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260717/682998.html",
       "source": "国家林草局 · 公示公告",
       "sourceId": "forestry-gsgg",
       "region": "全国",
