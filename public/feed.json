@@ -1,55 +1,56 @@
 {
-  "fetchedAt": "2026-11-13T05:06:34.754Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-11-14T04:57:20.947Z",
+  "itemCount": 6,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2287
+      "ms": 2331
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 6004
+      "ms": 1639
     },
     {
       "sourceId": "fj-lyj",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 1510
+      "ms": 1897
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10000
+      "ms": 9999
     },
     {
       "sourceId": "nx-jy",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 2216
+      "ms": 4564
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4760
+      "ms": 3380
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "ok",
-      "ms": 8947
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 2995
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 5162
+      "ms": 3738
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 5581
+      "ms": 4224
     }
   ],
   "items": [
@@ -111,19 +112,6 @@
         "landscape"
       ],
       "date": "2024-11-22",
-      "kind": "新发"
-    },
-    {
-      "id": "live-de812d84",
-      "title": "国家林业和草原局办公室 中国农林水利气象工会全国委员会关于举办第一届“美丽中国”涉林草高校教师教学创新竞赛的通知",
-      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260717/682998.html",
-      "source": "国家林草局 · 公示公告",
-      "sourceId": "forestry-gsgg",
-      "region": "全国",
-      "topics": [
-        "understory"
-      ],
-      "date": "",
       "kind": "新发"
     },
     {
