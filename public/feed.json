@@ -1,22 +1,21 @@
 {
-  "fetchedAt": "2026-11-15T04:51:14.249Z",
-  "itemCount": 8,
+  "fetchedAt": "2026-11-16T04:47:10.859Z",
+  "itemCount": 10,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2585
+      "ms": 3079
     },
     {
       "sourceId": "mof-notice",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 3227
+      "status": "empty",
+      "ms": 1987
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 3259
+      "ms": 2844
     },
     {
       "sourceId": "gx-dnr",
@@ -26,30 +25,29 @@
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2805
+      "status": "ok",
+      "ms": 2250
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 4005
+      "ms": 2240
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "ok",
-      "ms": 9189
+      "ms": 6081
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 4745
+      "ms": 2332
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 5337
+      "ms": 2600
     }
   ],
   "items": [
@@ -124,6 +122,32 @@
         "understory"
       ],
       "date": "2026-02-24",
+      "kind": "新发"
+    },
+    {
+      "id": "live-61dd2057",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示（第三批）",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261112_5398075.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-11-12",
+      "kind": "新发"
+    },
+    {
+      "id": "live-b337b677",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示（第二批）",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261102_5387580.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-11-02",
       "kind": "新发"
     },
     {
