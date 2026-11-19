@@ -1,58 +1,195 @@
 {
-  "fetchedAt": "2026-11-18T05:55:57.862Z",
-  "itemCount": 0,
+  "fetchedAt": "2026-11-19T05:56:20.638Z",
+  "itemCount": 10,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
-      "status": "fail",
-      "error": "HTTP 502",
-      "ms": 2461
+      "status": "ok",
+      "ms": 3194
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 2513
+      "ms": 4236
     },
     {
       "sourceId": "fj-lyj",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2371
+      "status": "ok",
+      "ms": 3128
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 10001
+      "ms": 10000
     },
     {
       "sourceId": "nx-jy",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 2349
+      "status": "ok",
+      "ms": 6619
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3060
+      "ms": 4769
     },
     {
       "sourceId": "forestry-gsgg",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 3300
+      "status": "ok",
+      "ms": 4804
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 3472
+      "ms": 5089
     },
     {
       "sourceId": "yn-dnr",
-      "status": "empty",
-      "ms": 4072
+      "status": "ok",
+      "ms": 5126
     }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "live-62e68b07",
+      "title": "财政部关于下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202606/t20260626_3992352.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2026-06-26",
+      "kind": "新发"
+    },
+    {
+      "id": "live-417e525f",
+      "title": "财政部关于提前下达2026年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202511/t20251118_3976614.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-11-18",
+      "kind": "新发"
+    },
+    {
+      "id": "live-59724cdf",
+      "title": "财政部关于下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202507/t20250702_3967013.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2025-07-02",
+      "kind": "新发"
+    },
+    {
+      "id": "live-f4fae20c",
+      "title": "财政部关于提前下达2025年重点生态保护修复治理资金预算的通知",
+      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202411/t20241122_3948202.htm",
+      "source": "财政部 · 重点生态保护修复治理资金",
+      "sourceId": "mof-repair-fund",
+      "region": "全国",
+      "topics": [
+        "fund",
+        "mine",
+        "landscape"
+      ],
+      "date": "2024-11-22",
+      "kind": "新发"
+    },
+    {
+      "id": "live-ea7e32f6",
+      "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
+      "url": "https://lyj.fujian.gov.cn/zwgk/zcfg/gfxwjnew/202602/t20260224_7099933.htm",
+      "source": "福建省林业局 · 部门文件",
+      "sourceId": "fj-lyj",
+      "region": "福建",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-02-24",
+      "kind": "新发"
+    },
+    {
+      "id": "live-d138f114",
+      "title": "泾源县2026年特色农产品销售奖补项目年终完成情况公告",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261117_5403100.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-11-17",
+      "kind": "新发"
+    },
+    {
+      "id": "live-61dd2057",
+      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示（第三批）",
+      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261112_5398075.html",
+      "source": "泾源县公示公告",
+      "sourceId": "nx-jy",
+      "region": "宁夏",
+      "topics": [
+        "understory"
+      ],
+      "date": "2026-11-12",
+      "kind": "新发"
+    },
+    {
+      "id": "live-de812d84",
+      "title": "国家林业和草原局办公室 中国农林水利气象工会全国委员会关于举办第一届“美丽中国”涉林草高校教师教学创新竞赛的通知",
+      "url": "https://www.forestry.gov.cn/lyj/1/gsgg/20260717/682998.html",
+      "source": "国家林草局 · 公示公告",
+      "sourceId": "forestry-gsgg",
+      "region": "全国",
+      "topics": [
+        "understory"
+      ],
+      "date": "",
+      "kind": "新发"
+    },
+    {
+      "id": "live-ec25dc01",
+      "title": "云南省自然资源厅关于香格里拉市云矿红牛矿业有限公司红牛铜矿等3个矿区生态修复方案通过审查的公告",
+      "url": "https://dnr.yn.gov.cn/scxx/kysc/jggs/202611/t20261118_4385252.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "2026-11-18",
+      "kind": "新发"
+    },
+    {
+      "id": "live-e8bc2ac3",
+      "title": "矿区生态修复方案审查结果公示",
+      "url": "https://dnr.yn.gov.cn/scxx/kysc/jggs/202611/t20261118_4385250.html",
+      "source": "云南省自然资源厅 · 门户",
+      "sourceId": "yn-dnr",
+      "region": "云南",
+      "topics": [
+        "mine",
+        "landscape"
+      ],
+      "date": "2026-11-18",
+      "kind": "新发"
+    }
+  ]
 }
