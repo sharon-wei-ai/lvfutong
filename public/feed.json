@@ -1,53 +1,54 @@
 {
-  "fetchedAt": "2026-11-22T05:07:17.456Z",
-  "itemCount": 10,
+  "fetchedAt": "2026-11-23T05:48:14.533Z",
+  "itemCount": 8,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
       "status": "ok",
-      "ms": 2399
+      "ms": 2464
     },
     {
       "sourceId": "mof-notice",
       "status": "empty",
-      "ms": 1993
+      "ms": 1122
     },
     {
       "sourceId": "fj-lyj",
       "status": "ok",
-      "ms": 2558
+      "ms": 2050
     },
     {
       "sourceId": "gx-dnr",
       "status": "fail",
       "error": "The operation was aborted due to timeout",
-      "ms": 9999
+      "ms": 10001
     },
     {
       "sourceId": "nx-jy",
-      "status": "ok",
-      "ms": 6391
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 3549
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 3108
+      "ms": 3438
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "empty",
-      "ms": 7942
+      "ms": 6812
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 3130
+      "ms": 3922
     },
     {
       "sourceId": "yn-dnr",
       "status": "ok",
-      "ms": 3441
+      "ms": 4354
     }
   ],
   "items": [
@@ -137,32 +138,6 @@
         "understory"
       ],
       "date": "2026-02-24",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d138f114",
-      "title": "泾源县2026年特色农产品销售奖补项目年终完成情况公告",
-      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261117_5403100.html",
-      "source": "泾源县公示公告",
-      "sourceId": "nx-jy",
-      "region": "宁夏",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-11-17",
-      "kind": "新发"
-    },
-    {
-      "id": "live-61dd2057",
-      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示（第三批）",
-      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261112_5398075.html",
-      "source": "泾源县公示公告",
-      "sourceId": "nx-jy",
-      "region": "宁夏",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-11-12",
       "kind": "新发"
     },
     {
