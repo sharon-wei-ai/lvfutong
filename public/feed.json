@@ -1,23 +1,23 @@
 {
-  "fetchedAt": "2026-11-25T07:00:49.272Z",
-  "itemCount": 7,
+  "fetchedAt": "2026-11-26T06:53:47.799Z",
+  "itemCount": 1,
   "sources": [
     {
       "sourceId": "mof-repair-fund",
-      "status": "ok",
-      "ms": 2216
+      "status": "fail",
+      "error": "HTTP 502",
+      "ms": 2853
     },
     {
       "sourceId": "mof-notice",
       "status": "fail",
       "error": "HTTP 502",
-      "ms": 3516
+      "ms": 2461
     },
     {
       "sourceId": "fj-lyj",
-      "status": "fail",
-      "error": "fetch failed",
-      "ms": 1137
+      "status": "ok",
+      "ms": 3502
     },
     {
       "sourceId": "gx-dnr",
@@ -27,132 +27,45 @@
     },
     {
       "sourceId": "nx-jy",
-      "status": "ok",
-      "ms": 2246
+      "status": "fail",
+      "error": "fetch failed",
+      "ms": 2718
     },
     {
       "sourceId": "mee-tzgg",
       "status": "empty",
-      "ms": 2614
+      "ms": 3630
     },
     {
       "sourceId": "forestry-gsgg",
       "status": "fail",
       "error": "fetch failed",
-      "ms": 2572
+      "ms": 4113
     },
     {
       "sourceId": "yn-lcj-gsgg",
       "status": "fail",
       "error": "HTTP 404",
-      "ms": 3877
+      "ms": 3608
     },
     {
       "sourceId": "yn-dnr",
       "status": "empty",
-      "ms": 3129
+      "ms": 4190
     }
   ],
   "items": [
     {
-      "id": "live-4fe9741e",
-      "title": "财政部关于提前下达2027年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202611/t20261119_4005012.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2026-11-19",
-      "kind": "新发"
-    },
-    {
-      "id": "live-62e68b07",
-      "title": "财政部关于下达2026年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202606/t20260626_3992352.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2026-06-26",
-      "kind": "新发"
-    },
-    {
-      "id": "live-417e525f",
-      "title": "财政部关于提前下达2026年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202511/t20251118_3976614.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2025-11-18",
-      "kind": "新发"
-    },
-    {
-      "id": "live-59724cdf",
-      "title": "财政部关于下达2025年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202507/t20250702_3967013.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2025-07-02",
-      "kind": "新发"
-    },
-    {
-      "id": "live-f4fae20c",
-      "title": "财政部关于提前下达2025年重点生态保护修复治理资金预算的通知",
-      "url": "http://zyhj.mof.gov.cn/zxzyzf/zdstbhxf/202411/t20241122_3948202.htm",
-      "source": "财政部 · 重点生态保护修复治理资金",
-      "sourceId": "mof-repair-fund",
-      "region": "全国",
-      "topics": [
-        "fund",
-        "mine",
-        "landscape"
-      ],
-      "date": "2024-11-22",
-      "kind": "新发"
-    },
-    {
-      "id": "live-d138f114",
-      "title": "泾源县2026年特色农产品销售奖补项目年终完成情况公告",
-      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261117_5403100.html",
-      "source": "泾源县公示公告",
-      "sourceId": "nx-jy",
-      "region": "宁夏",
+      "id": "live-ea7e32f6",
+      "title": "福建省林业局等12单位印发关于加快林下经济高质量发展若干措施的通知 2026-02-11",
+      "url": "https://lyj.fujian.gov.cn/zwgk/zcfg/gfxwjnew/202602/t20260224_7099933.htm",
+      "source": "福建省林业局 · 部门文件",
+      "sourceId": "fj-lyj",
+      "region": "福建",
       "topics": [
         "understory"
       ],
-      "date": "2026-11-17",
-      "kind": "新发"
-    },
-    {
-      "id": "live-61dd2057",
-      "title": "关于泾源县2026年消费帮扶及产业提质增效项目申报名单的公示（第三批）",
-      "url": "https://www.nxjy.gov.cn/xwzx/gsgg/202611/t20261112_5398075.html",
-      "source": "泾源县公示公告",
-      "sourceId": "nx-jy",
-      "region": "宁夏",
-      "topics": [
-        "understory"
-      ],
-      "date": "2026-11-12",
+      "date": "2026-02-24",
       "kind": "新发"
     }
   ]
